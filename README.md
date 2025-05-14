@@ -7,15 +7,15 @@ WAI-Socket is a WhatsApp-style chatbot powered by WebSocket and AI, built in Typ
 # 🚀 Features
 
 
-🔌 WebSocket integration for live communication
+   WebSocket integration for live communication
 
-🤖 AI assistant using OpenRouter GPT-3.5/4 with function calling
+   AI assistant using OpenRouter GPT-3.5/4 with function calling
 
-✍️ Smart summarization and 🌍 language translation
+   Smart summarization and 🌍 language translation
 
-⚡ Streamed AI responses back to the chat window
+   Streamed AI responses back to the chat window
 
-🧠 Built-in logic to decide when to chat vs. call helper functions
+   Built-in logic to decide when to chat vs. call helper functions
 
 
 
