@@ -1,6 +1,6 @@
 import axios from 'axios';
 import 'dotenv/config';
-
+// import { summarize , translate } from './helpers.js';
 export async function handleAIRequest(message: string): Promise<string> {
   try {
     const response = await axios.post(
@@ -85,8 +85,8 @@ export async function handleAIRequest(message: string): Promise<string> {
 
     return choice.message?.content || '🤖 I have no response.';
   } catch (err: any) {
-    console.error('❌ AI request failed:', err?.response?.data || err.message);
-    return '❌ AI failed to respond.';
+    console.error('AI request failed:', err?.response?.data || err.message);
+    return 'AI failed to respond.';
   }
 }
 
@@ -115,10 +115,10 @@ async function summarize(text: string): Promise<string> {
       }
     );
 
-    return response.data.choices?.[0]?.message?.content || '⚠️ No summary generated.';
+    return response.data.choices?.[0]?.message?.content || 'No summary generated.';
   } catch (err: any) {
-    console.error('❌ Summarization failed:', err?.response?.data || err.message);
-    return '❌ Failed to summarize.';
+    console.error('Summarization failed:', err?.response?.data || err.message);
+    return 'Failed to summarize.';
   }
 }
 
@@ -147,10 +147,10 @@ async function translate(text: string, to: string): Promise<string> {
       }
     );
 
-    return response.data.choices?.[0]?.message?.content || '⚠️ No translation generated.';
+    return response.data.choices?.[0]?.message?.content || 'No translation generated.';
   } catch (err: any) {
-    console.error('❌ Translation failed:', err?.response?.data || err.message);
-    return '❌ Failed to translate.';
+    console.error('Translation failed:', err?.response?.data || err.message);
+    return 'Failed to translate.';
   }
 }
 
