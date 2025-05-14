@@ -7,9 +7,9 @@ const { Client, LocalAuth } = whatsapp;
 const client = new Client({
   authStrategy: new LocalAuth(),
   puppeteer: {
-    headless: true, // change to false to see browser UI for debugging
+    headless: true,
     args: ['--no-sandbox', '--disable-setuid-sandbox'],
-    // Optional: slowMo: 50, // slows operations down for stability
+    
   },
 });
 
