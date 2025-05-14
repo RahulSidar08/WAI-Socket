@@ -32,6 +32,7 @@ Tools: Vite, Axios, dotenv
 
 
 
+
 # How to Run the Project
 
 Set up your .env file with your OPENROUTER_API_KEY
@@ -54,11 +55,10 @@ Set environment variables
  npm run start
 ```
 
-# Scan the QR code
+- Scan the QR code
 On the first run, scan the QR code with your WhatsApp to connect the bot.
-Send a message
+- Send a message
 Start chatting with the bot. Try things like:
-"Hi, how are you?"
-"Summarize this: Lorem ipsum dolor sit amet..."
-"Translate 'How are you?' to French"
-
+- "Hi, how are you?"
+- "Summarize this: Lorem ipsum dolor sit amet..."
+- "Translate 'How are you?' to French"
