@@ -31,25 +31,34 @@ AI: OpenRouter (GPT-3.5/4), Function Calling API
 Tools: Vite, Axios, dotenv
 
 
-## Run Locally
+
+# How to Run the Project
 
 Set up your .env file with your OPENROUTER_API_KEY
 
-Clone the project
-
-```bash
-  git clone https://github.com/RahulSidar08/WAI-Socket.git
-```
-
-Install dependencies
+ Install dependencies
 
 ```bash
   npm install
 ```
 
-Start
+Set environment variables
 
 ```bash
-npm run start
+ OPENROUTER_API_KEY=your_openrouter_api_key
 ```
+
+ Start the project
+
+```bash
+ npm run start
+```
+
+# Scan the QR code
+On the first run, scan the QR code with your WhatsApp to connect the bot.
+Send a message
+Start chatting with the bot. Try things like:
+"Hi, how are you?"
+"Summarize this: Lorem ipsum dolor sit amet..."
+"Translate 'How are you?' to French"
 
