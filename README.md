@@ -50,6 +50,6 @@ Install dependencies
 Start
 
 ```bash
- node --loader ts-node/esm src/index.ts
+npm run start
 ```
 
