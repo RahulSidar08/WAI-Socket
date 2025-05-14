@@ -1,5 +1,5 @@
 
-# WAI SOCKET
+# WAI (WhatsApp AI) SOCKET
 
 WAI-Socket is a WhatsApp-style chatbot powered by WebSocket and AI, built in TypeScript. It connects to WhatsApp through a WebSocket server and uses OpenRouter (OpenAI) for intelligent responses, including dynamic function calling like summarization and translation.
 
